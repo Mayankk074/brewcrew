@@ -37,15 +37,31 @@ class Home extends StatelessWidget {
           elevation: 0.0,
           actions: [
             TextButton.icon(
-              icon: Icon(Icons.person),
+              icon: Icon(
+                Icons.person,
+                color: Colors.yellow,
+              ),
               onPressed: () async {
                 await _auth.signOut();
               },
-              label: Text('log Out'),
+              label: Text(
+                  'log Out',
+                style: TextStyle(
+                  color: Colors.black,
+                ),
+              ),
             ),
             TextButton.icon(
-              icon: Icon(Icons.settings),
-              label: Text('Settings'),
+              icon: Icon(
+                Icons.settings,
+                color: Colors.yellow,
+              ),
+              label: Text(
+                'Settings',
+                style: TextStyle(
+                  color: Colors.black,
+                ),
+              ),
               onPressed: () => _showSettingsPanel(),
             )
           ],
