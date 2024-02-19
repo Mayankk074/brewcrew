@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "693127224464",
+    "project_id": "brew-crew-2611b",
+    "storage_bucket": "brew-crew-2611b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693127224464:android:a34e6699f813af69c64c15",
+        "android_client_info": {
+          "package_name": "com.mayank.brewcrew"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQLGzbyT4EFRGPfj2xlyH7Q14f-tOwGfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
