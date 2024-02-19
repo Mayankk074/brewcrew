@@ -32,11 +32,19 @@ class _SignINState extends State<SignIN> {
         title: Text('Sign In in Brew Crew'),
         actions: [
           TextButton.icon(
-            icon: Icon(Icons.person),
+            icon: Icon(
+              Icons.person,
+              color: Colors.yellow,
+            ),
             onPressed: (){
               widget.toggleView!();
             },
-            label: Text('Register'),
+            label: Text(
+              'Register',
+              style: TextStyle(
+                color: Colors.black,
+              ),
+            ),
           )
         ],
       ),

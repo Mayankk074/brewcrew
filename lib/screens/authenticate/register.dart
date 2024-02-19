@@ -31,11 +31,19 @@ class _RegisterState extends State<Register> {
         title: Text('Sign Up in Brew Crew'),
         actions: [
           TextButton.icon(
-            icon: Icon(Icons.person),
+            icon: Icon(
+              Icons.person,
+              color: Colors.yellow,
+            ),
             onPressed: (){
               widget.toggleView!();
             },
-            label: Text('Sign In'),
+            label: Text(
+              'Sign In',
+              style: TextStyle(
+                color: Colors.black,
+              ),
+            ),
           )
         ],
       ),
